@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: New Resource
+  description: Microservice
+  annotations: 
+    github.com/project-slug: testing-backstage-zup/microservice
+    backstage.io/github-actions-id: testing-backstage-zup/microservice
+spec:
+  type: service
+  lifecycle: experimental
+  owner: joaofilipecb
